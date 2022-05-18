@@ -1,1 +1,2 @@
-export { Purify } from './Purify'
+export { PurifiedDiv } from './PurifiedDiv'
+export { PurifiedSpan } from './PurifiedSpan'
