@@ -1,6 +1,6 @@
 import type { HTMLAttributes } from 'react'
 import React from 'react'
-import { usePurified } from '..'
+import { usePurified } from '../hooks'
 
 export interface PurifiedDivProps extends HTMLAttributes<HTMLDivElement> {
 	dirty: string

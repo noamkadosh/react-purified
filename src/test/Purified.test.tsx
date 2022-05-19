@@ -1,4 +1,4 @@
-import { PurifiedDiv, PurifiedSpan } from '..'
+import { PurifiedDiv, PurifiedSpan } from '../components'
 import { expect, it } from 'vitest'
 
 import React from 'react'
