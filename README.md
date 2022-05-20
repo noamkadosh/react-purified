@@ -1,2 +1,2 @@
-# React Purify
+# React Purified
 

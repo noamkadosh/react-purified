@@ -1,5 +1,5 @@
 {
-	"name": "react-purify",
+	"name": "react-purified",
 	"version": "1.0.0",
 	"description": "React wrapper to sanitize HTML",
 	"main": "dist/cjs/index.js",
