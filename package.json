@@ -43,6 +43,7 @@
 		"eslint-plugin-testing-library": "^5.1.0",
 		"eslint-plugin-unicorn": "^41.0.1",
 		"happy-dom": "^3.2.2",
+		"lint-staged": "^12.4.1",
 		"prettier": "^2.6.2",
 		"react": "^18.1.0",
 		"react-dom": "^18.1.0",
@@ -60,5 +61,11 @@
 	},
 	"peerDependencies": {
 		"react": "^16.8.0 || ^17.0.0 || ^18.0.0"
+	},
+	"lint-staged": {
+		"*.ts": [
+			"pnpm eslint --fix --quiet --format=pretty",
+			"pnpm run test"
+		]
 	}
 }
