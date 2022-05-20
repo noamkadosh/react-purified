@@ -10,8 +10,11 @@
 		"dist"
 	],
 	"scripts": {
-		"rollup": "rollup -c",
-		"test": "vitest"
+		"build": "rollup -c",
+		"test": "vitest run",
+		"test:watch": "vitest watch",
+		"lint": "eslint",
+		"lint:fix": "eslint --fix --quiet --format=pretty"
 	},
 	"author": "Noam Kadosh",
 	"license": "ISC",
@@ -64,7 +67,7 @@
 	},
 	"lint-staged": {
 		"*.ts": [
-			"pnpm eslint --fix --quiet --format=pretty",
+			"pnpm run lint",
 			"pnpm run test"
 		]
 	}

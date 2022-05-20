@@ -1,8 +1,8 @@
-import { PurifiedDiv, PurifiedSpan } from '../components'
+import { PurifiedDiv, PurifiedSpan } from '../src/components'
 import { expect, it } from 'vitest'
 
 import React from 'react'
-import { mockHtml } from './ mocks'
+import { mockHtml } from './mocks'
 import { render } from '@testing-library/react'
 
 it('Should purify the dirty prop in a div', () => {
