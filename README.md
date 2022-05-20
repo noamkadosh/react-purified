@@ -18,17 +18,17 @@ The tool is written in Node.js, but you can use it to run **any** commands.
 
 **npm**
 ```zsh
-npm install --save-dev react-purified
+npm install react-purified
 ```
 
 **yarn**
 ```zsh
-yarn add -D react-purified
+yarn add react-purified
 ```
 
 **pnpm**
 ```zsh
-pnpm add -D react-purified
+pnpm add react-purified
 ```
 
 ## Usage
